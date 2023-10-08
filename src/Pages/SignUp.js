@@ -12,12 +12,12 @@ const SignUp = () => {
       style={{ backgroundImage: `url(${backgroundImage})` }}
     >
       <div className="bg-black bg-opacity-50 absolute top-0 left-0 w-full h-full"></div>
-      <div className="text-black bg-white h-auto z-10  rounded-lg px-7 py-4 w-1/3">
+      <div className="text-black  bg-white h-auto z-10  rounded-lg px-7 py-4 md:w-1/3 sm:w-full">
         {/* Logo */}
         <img
           src={logo}
           alt="Logo"
-          className="mx-auto mb-1 w-16 md:w-24 lg:w-32 xl:w-40"
+          className="mx-auto mb-1 w-16 md:w-24 lg:w-32 xl:w-40 sm:w-10 "
         />
         <p className="font-bold text-black text-center font-sans text-lg mb-4">
           Get Register
@@ -105,3 +105,4 @@ const SignUp = () => {
 };
 
 export default SignUp;
+
