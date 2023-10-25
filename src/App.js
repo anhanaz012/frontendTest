@@ -7,7 +7,12 @@ import SignUp from "./Pages/SignUp";
 function App() {
   const [selectedCountry, setSelectedCountry] = useState("");
   const [selectedProfile, setSelectedProfile] = useState("Choose one");
-  return <SignUp />;
+  return (
+    <>
+      <Text>Hello signup page</Text>
+      <SignUp />
+    </>
+  );
 }
 
 export default App;
